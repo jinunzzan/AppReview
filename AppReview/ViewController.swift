@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     }
 
     @objc private func didTapButton(){
+        //사용하는 쪽에서 버튼이 눌릴 경우 해당 유틸을 호출하여 사용합니당
         AppStoreReviewManager.requestReviewIfAppropriate()
     }
 
